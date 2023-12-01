@@ -1,6 +1,19 @@
 <html>
+   <head>
+      <style>
+         body {
+            background-color: #f0f0f0; /* Set the background color for the entire body */
+         }
+         form {
+            background-color: #ffffff; /* Set the background color for the form */
+            margin: auto;
+            width: 220px;
+            padding: 10px; /* Add padding for better appearance */
+         }
+      </style>
+   </head>
    <body>
-      <form style="margin: auto; width: 220px;" action="index.jsp" method="GET">
+      <form action="index.jsp" method="GET">
          <fieldset>
             <legend>Number Inputs</legend>
             Number 1: <input type="number" name="number1"/>
@@ -8,7 +21,6 @@
             Number 2: <input type="number" name="number2"/>
             <br/>
          </fieldset>
-         <br>
          <input type="submit" value="Submit"/>
       </form>
    </body>
